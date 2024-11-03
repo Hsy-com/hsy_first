@@ -1,0 +1,25 @@
+#include<stdio.h>
+int mian(void)
+{
+int a,b,s;
+printf("please input a,b:\n");
+scanf("%d%d",&a&b);
+s=a*a+b*b;
+printf("the result is %d\n",s);
+return 0;
+}
+# include <stdio.h>
+#define PI 3.14
+int main(void)
+{
+double r,area,g;
+printf("please input r:\n");
+scanf("%lf",&r);
+if(r>0)
+{
+area=PI*r*r;
+g=2*PI*r;
+printf("the area is%.2f \n",area);
+printf("the g is %.2f\n",g);
+else printf ("Input error!\n");
+return 0;
